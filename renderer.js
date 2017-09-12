@@ -1,5 +1,6 @@
 var w = 1280 - 80,
     h = 800 - 180,
+	//h = (800 - 180) * 1.35,
     x = d3.scale.linear().range([0, w]),
     y = d3.scale.linear().range([0, h]),
     color = d3.scale.category20c(),
@@ -21,7 +22,8 @@ var svg = d3.select("#body").append("div")
   .append("svg:g")
     .attr("transform", "translate(.5,.5)");
 
-d3.json("test.json", function(data) {
+d3.json("new-inside.json", function(data) {
+//d3.json("old-inside.json", function(data) {
   node = data;
 
   var nodes = treemap.nodes(data)

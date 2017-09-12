@@ -23,7 +23,7 @@ rect {
 
     </style>
   </head>
-  <body>
+  <body style="height: 1600px;">
     <div id="body"></div>
     <script type="text/javascript">
 
@@ -32,12 +32,14 @@ rect {
     var recursive = require('recursive-readdir');
     var sloc  = require('sloc');
 
-    var dir = '/home/fru/droplet';
+    var dir1 = 'C:\\Source\\copy\\inside\\Douglas.Inside\\';
+	var dir2 = 'C:\\Source\\copy\\inside\\Douglas.Inside.MasterPages\\';
 
     function ignore(file, stats) {
       return stats.isDirectory() && (
         file.indexOf('node_modules') !== -1 ||
-        file.indexOf('.git') !== -1
+        file.indexOf('.git') !== -1 ||
+		file.indexOf('bin') !== -1
       );
     }
 
@@ -57,38 +59,50 @@ rect {
         }
       }
     }
+	
+	var total = 0;
+	var data = {};
+	
+	function read(dir, callback) {
+		recursive(dir, [ignore], function (err, files) {
+		
+		  for (let file of files) {
+			var code = fs.readFileSync(file, 'utf8');
+			try {
+			  var ext = getExtension(file);
+			  if (ext === 'cshtml') ext = 'html';
+			  if (ext !== 'cs' && ext !== 'html') continue;
+			  var stats = sloc(code, ext);
+			  total += stats.source;
 
-    recursive(dir, [ignore], function (err, files) {
-      //return;
-      var total = 0;
-      var data = {};
-      for (let file of files) {
-        var code = fs.readFileSync(file, 'utf8');
-        try {
-          var stats = sloc(code, getExtension(file));
-          console.log(stats.source, file);
-          total += stats.source;
-
-          var context = data;
-          var segments = file.substring(1).split(/\//);
-          for (var i = 0; i < segments.length; i++) {
-            if (i !== segments.length - 1) {
-              context = context[segments[i]] = context[segments[i]] || {};
-            } else {
-              context.children = context.children || [];
-              context.children.push({name: segments[i], size: stats.source});
-            }
-          }
-        } catch (e) {}
-      }
-      recurseAddChildren(data);
-      var content = JSON.stringify(data.children[0], null, 2);
-      fs.writeFileSync("./test.json", content, 'utf8');
-
-      require('./renderer.js');
-    });
-
-
+			  var context = data;
+			  var segments = file.substring(3).split(/\\/);
+			  for (var i = 0; i < segments.length; i++) {
+				if (i !== segments.length - 1) {
+				  context = context[segments[i]] = context[segments[i]] || {};
+				} else {
+				  context.children = context.children || [];
+				  context.children.push({name: segments[i], size: stats.source < 1 ? 1 : stats.source });
+				}
+			  }
+			} catch (e) {}
+		  }
+		  
+		  callback();
+		});
+	}
+	
+	/*read(dir1, function () {
+		read(dir2, function () {
+		  recurseAddChildren(data);
+		  var content = JSON.stringify(data.children[0], null, 2);
+		  fs.writeFileSync("./test.json", content, 'utf8');
+		  
+		  console.log(total);
+		});
+	});*/
+	
+	require('./renderer.js');
 
     </script>
   </body>
