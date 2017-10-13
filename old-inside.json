@@ -1,0 +1,4518 @@
+{
+  "name": "Source",
+  "children": [
+    {
+      "name": "copy",
+      "children": [
+        {
+          "name": "inside",
+          "children": [
+            {
+              "name": "Douglas.Inside",
+              "children": [
+                {
+                  "name": "Douglas.Inside.Tests",
+                  "children": [
+                    {
+                      "name": "Properties",
+                      "children": [
+                        {
+                          "name": "AssemblyInfo.cs",
+                          "size": 15
+                        }
+                      ]
+                    },
+                    {
+                      "name": "View",
+                      "children": [
+                        {
+                          "name": "ArticleViewTests.cs",
+                          "size": 19
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Douglas.Inside.RunMigration",
+                  "children": [
+                    {
+                      "name": "RunMigration.cs",
+                      "size": 22
+                    },
+                    {
+                      "name": "Properties",
+                      "children": [
+                        {
+                          "name": "AssemblyInfo.cs",
+                          "size": 15
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Douglas.Inside.Shared",
+                  "children": [
+                    {
+                      "name": "Properties",
+                      "children": [
+                        {
+                          "name": "AssemblyInfo.cs",
+                          "size": 15
+                        },
+                        {
+                          "name": "Settings.Designer.cs",
+                          "size": 53
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DB",
+                      "children": [
+                        {
+                          "name": "DBSelector.cs",
+                          "size": 135
+                        },
+                        {
+                          "name": "DBConnectionSelector.cs",
+                          "size": 82
+                        },
+                        {
+                          "name": "GroundplanContext.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "InsideContext.cs",
+                          "size": 45
+                        },
+                        {
+                          "name": "MasterdataContext.cs",
+                          "size": 14
+                        },
+                        {
+                          "name": "VMContext.cs",
+                          "size": 45
+                        },
+                        {
+                          "name": "PlanogramContext.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "Shared",
+                          "children": [
+                            {
+                              "name": "BaseEntityActivatable.cs",
+                              "size": 16
+                            },
+                            {
+                              "name": "BaseEntityVersioned.cs",
+                              "size": 21
+                            },
+                            {
+                              "name": "BaseEntityVersionedContact.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "IActivateEntity.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "IExpireDateEntity.cs",
+                              "size": 13
+                            },
+                            {
+                              "name": "IHierarchyEntity.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "ILastUserEntity.cs",
+                              "size": 9
+                            },
+                            {
+                              "name": "IRootEntity.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "IVersionEntity.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "IWizardEntity.cs",
+                              "size": 14
+                            },
+                            {
+                              "name": "PermissionMapping.cs",
+                              "size": 27
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Entities",
+                          "children": [
+                            {
+                              "name": "import",
+                              "children": [
+                                {
+                                  "name": "ADInsideGroup.cs",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "SAPFilialstamm.cs",
+                                  "size": 154
+                                },
+                                {
+                                  "name": "ADSIBenutzer.cs",
+                                  "size": 110
+                                },
+                                {
+                                  "name": "Mitarbeitersuche.cs",
+                                  "size": 90
+                                },
+                                {
+                                  "name": "ADMailGroup.cs",
+                                  "size": 35
+                                },
+                                {
+                                  "name": "UserGroups.cs",
+                                  "size": 22
+                                }
+                              ]
+                            },
+                            {
+                              "name": "quartz",
+                              "children": [
+                                {
+                                  "name": "JobAudit.cs",
+                                  "size": 28
+                                }
+                              ]
+                            },
+                            {
+                              "name": "view",
+                              "children": [
+                                {
+                                  "name": "Alarm.cs",
+                                  "size": 41
+                                },
+                                {
+                                  "name": "AppSmartieBar.cs",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "AppSmartieBarElement.cs",
+                                  "size": 30
+                                },
+                                {
+                                  "name": "Appointment.cs",
+                                  "size": 54
+                                },
+                                {
+                                  "name": "AssetMapping.cs",
+                                  "size": 57
+                                },
+                                {
+                                  "name": "App.cs",
+                                  "size": 56
+                                },
+                                {
+                                  "name": "Category.cs",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "ContactPerson.cs",
+                                  "size": 40
+                                },
+                                {
+                                  "name": "Contact.cs",
+                                  "size": 113
+                                },
+                                {
+                                  "name": "ContactPicture.cs",
+                                  "size": 119
+                                },
+                                {
+                                  "name": "ContactRelatedAs.cs",
+                                  "size": 32
+                                },
+                                {
+                                  "name": "Employee.cs",
+                                  "size": 18
+                                },
+                                {
+                                  "name": "Favorit.cs",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "FeatureSwitch.cs",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "Form.cs",
+                                  "size": 53
+                                },
+                                {
+                                  "name": "FormAutoFill.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "Lexicon.cs",
+                                  "size": 56
+                                },
+                                {
+                                  "name": "FormContentList.cs",
+                                  "size": 15
+                                },
+                                {
+                                  "name": "LexiconLinkedContent.cs",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "NavigationLive.cs",
+                                  "size": 42
+                                },
+                                {
+                                  "name": "Page.cs",
+                                  "size": 60
+                                },
+                                {
+                                  "name": "PageLinkedContent.cs",
+                                  "size": 27
+                                },
+                                {
+                                  "name": "Post.cs",
+                                  "size": 63
+                                },
+                                {
+                                  "name": "PostLinkedContent.cs",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "PostNFM.cs",
+                                  "size": 33
+                                },
+                                {
+                                  "name": "PostPermissionReadStatus.cs",
+                                  "size": 27
+                                },
+                                {
+                                  "name": "PromotionLink.cs",
+                                  "size": 38
+                                },
+                                {
+                                  "name": "PromotionPhoto.cs",
+                                  "size": 48
+                                },
+                                {
+                                  "name": "RegisterItem.cs",
+                                  "size": 62
+                                },
+                                {
+                                  "name": "RegisterItemCategroyMapping.cs",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "Script.cs",
+                                  "size": 40
+                                },
+                                {
+                                  "name": "Task.cs",
+                                  "size": 43
+                                },
+                                {
+                                  "name": "Template.cs",
+                                  "size": 64
+                                },
+                                {
+                                  "name": "Translate.cs",
+                                  "size": 61
+                                },
+                                {
+                                  "name": "VitracomPicture.cs",
+                                  "size": 25
+                                },
+                                {
+                                  "name": "VMCampaignFiltered.cs",
+                                  "size": 16
+                                },
+                                {
+                                  "name": "VMCampaignPickerView.cs",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "VMCampaignView.cs",
+                                  "size": 30
+                                },
+                                {
+                                  "name": "VMProductView.cs",
+                                  "size": 31
+                                },
+                                {
+                                  "name": "VMPromotionFiltered.cs",
+                                  "size": 18
+                                },
+                                {
+                                  "name": "VMPromotionFurnitureView.cs",
+                                  "size": 25
+                                },
+                                {
+                                  "name": "VMPromotionView.cs",
+                                  "size": 43
+                                },
+                                {
+                                  "name": "VMResultFavoriteView.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "VMResultFilterFurnitureView.cs",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "VMResultFilterView.cs",
+                                  "size": 27
+                                },
+                                {
+                                  "name": "VMResultFilterVSTView.cs",
+                                  "size": 15
+                                },
+                                {
+                                  "name": "VMResultImageView.cs",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "VMResultQuestionMappingView.cs",
+                                  "size": 28
+                                },
+                                {
+                                  "name": "VMResultView.cs",
+                                  "size": 75
+                                },
+                                {
+                                  "name": "VMTypeQuestionView.cs",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "VMTypeView.cs",
+                                  "size": 18
+                                }
+                              ]
+                            },
+                            {
+                              "name": "planogram",
+                              "children": [
+                                {
+                                  "name": "Picture.cs",
+                                  "size": 18
+                                }
+                              ]
+                            },
+                            {
+                              "name": "master",
+                              "children": [
+                                {
+                                  "name": "T_SAP_Filialstamm.cs",
+                                  "size": 155
+                                }
+                              ]
+                            },
+                            {
+                              "name": "edit",
+                              "children": [
+                                {
+                                  "name": "ADInsideGroupBlacklist.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Alarm.cs",
+                                  "size": 32
+                                },
+                                {
+                                  "name": "App.cs",
+                                  "size": 36
+                                },
+                                {
+                                  "name": "AppGroup.cs",
+                                  "size": 18
+                                },
+                                {
+                                  "name": "Appointment.cs",
+                                  "size": 46
+                                },
+                                {
+                                  "name": "AppPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "AppSmartieBar.cs",
+                                  "size": 33
+                                },
+                                {
+                                  "name": "AppSmartieBarElement.cs",
+                                  "size": 22
+                                },
+                                {
+                                  "name": "AppSmartieBarElementPermissionMapping.cs",
+                                  "size": 15
+                                },
+                                {
+                                  "name": "AssetMapping.cs",
+                                  "size": 33
+                                },
+                                {
+                                  "name": "AssetMappingPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "AssetMappingWithFilePath.cs",
+                                  "size": 59
+                                },
+                                {
+                                  "name": "Category.cs",
+                                  "size": 43
+                                },
+                                {
+                                  "name": "CleaningSchedule.cs",
+                                  "size": 36
+                                },
+                                {
+                                  "name": "CleaningScheduleResult.cs",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "Contact.cs",
+                                  "size": 86
+                                },
+                                {
+                                  "name": "ContactFilter.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "ContactPerson.cs",
+                                  "size": 30
+                                },
+                                {
+                                  "name": "ContactPicture.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "ErrorLog.cs",
+                                  "size": 25
+                                },
+                                {
+                                  "name": "Favorit.cs",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "FeatureSwitch.cs",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "FeatureSwitchPermissionMapping.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "FireSafetyInfoAppointment.cs",
+                                  "size": 16
+                                },
+                                {
+                                  "name": "FireSafetyInfoPerson.cs",
+                                  "size": 23
+                                },
+                                {
+                                  "name": "FireSafetyInfoStore.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "FLReport.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "Form.cs",
+                                  "size": 75
+                                },
+                                {
+                                  "name": "FormAutoFill.cs",
+                                  "size": 18
+                                },
+                                {
+                                  "name": "FormOptionBasic.cs",
+                                  "size": 11
+                                },
+                                {
+                                  "name": "FormOptionEmail.cs",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "FormPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "FormResult.cs",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "FormResultAsset.cs",
+                                  "size": 32
+                                },
+                                {
+                                  "name": "FormResultValue.cs",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "GroupGroupsMapping.cs",
+                                  "size": 31
+                                },
+                                {
+                                  "name": "Lexicon.cs",
+                                  "size": 49
+                                },
+                                {
+                                  "name": "LexiconLinkedContent.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "LexiconPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "LookupValue.cs",
+                                  "size": 32
+                                },
+                                {
+                                  "name": "MapUserPlaceholder.cs",
+                                  "size": 18
+                                },
+                                {
+                                  "name": "NavigationEdit.cs",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "NavigationEditPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "NavigationLive.cs",
+                                  "size": 30
+                                },
+                                {
+                                  "name": "NavigationLivePermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Page.cs",
+                                  "size": 44
+                                },
+                                {
+                                  "name": "PageLinkedContent.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "PagePermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Post.cs",
+                                  "size": 60
+                                },
+                                {
+                                  "name": "PostLinkedContent.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "PostNFM.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "PostPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Product.cs",
+                                  "size": 30
+                                },
+                                {
+                                  "name": "PromotionLink.cs",
+                                  "size": 28
+                                },
+                                {
+                                  "name": "PromotionLinkPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "PromotionPhoto.cs",
+                                  "size": 37
+                                },
+                                {
+                                  "name": "Script.cs",
+                                  "size": 30
+                                },
+                                {
+                                  "name": "Setting.cs",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "StoreFloorplan.cs",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "Supplier.cs",
+                                  "size": 22
+                                },
+                                {
+                                  "name": "Task.cs",
+                                  "size": 42
+                                },
+                                {
+                                  "name": "TaskLinkedContent.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "TaskPermissionMapping.cs",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "TaskResult.cs",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "TaskResultStatus.cs",
+                                  "size": 14
+                                },
+                                {
+                                  "name": "TaskType.cs",
+                                  "size": 14
+                                },
+                                {
+                                  "name": "Template.cs",
+                                  "size": 44
+                                },
+                                {
+                                  "name": "Translate.cs",
+                                  "size": 42
+                                },
+                                {
+                                  "name": "UserGroupMapping.cs",
+                                  "size": 27
+                                },
+                                {
+                                  "name": "VitracomPicture.cs",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "VMCampaign.cs",
+                                  "size": 25
+                                },
+                                {
+                                  "name": "VMCampaignPermissionMapping.cs",
+                                  "size": 17
+                                },
+                                {
+                                  "name": "VMEquipment.cs",
+                                  "size": 34
+                                },
+                                {
+                                  "name": "VMEquipmentImage.cs",
+                                  "size": 31
+                                },
+                                {
+                                  "name": "VMErrorLog.cs",
+                                  "size": 28
+                                },
+                                {
+                                  "name": "VMProduct.cs",
+                                  "size": 27
+                                },
+                                {
+                                  "name": "VMFurnitureAssessment.cs",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "VMProductImage.cs",
+                                  "size": 27
+                                },
+                                {
+                                  "name": "VMPromotion.cs",
+                                  "size": 33
+                                },
+                                {
+                                  "name": "VMPromotionFurniture.cs",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "VMPromotionImage.cs",
+                                  "size": 27
+                                },
+                                {
+                                  "name": "VMPromotionPermissionMapping.cs",
+                                  "size": 11
+                                },
+                                {
+                                  "name": "VMResult.cs",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "VMResultFavorite.cs",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "VMResultImage.cs",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "VMResultQuestionMapping.cs",
+                                  "size": 22
+                                },
+                                {
+                                  "name": "VMType.cs",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "VMTypeQuestion.cs",
+                                  "size": 20
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Douglas.Inside.Utilities",
+                  "children": [
+                    {
+                      "name": "Caching",
+                      "children": [
+                        {
+                          "name": "RequestCaching.cs",
+                          "size": 89
+                        }
+                      ]
+                    },
+                    {
+                      "name": "CoreEngine",
+                      "children": [
+                        {
+                          "name": "AppCache.cs",
+                          "size": 40
+                        },
+                        {
+                          "name": "AsyncTask.cs",
+                          "size": 58
+                        },
+                        {
+                          "name": "WPSettingsStatic.cs",
+                          "size": 27
+                        },
+                        {
+                          "name": "ControlHandler.cs",
+                          "size": 58
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Handler",
+                      "children": [
+                        {
+                          "name": "MediaHttpHandler.cs",
+                          "size": 38
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Localization",
+                      "children": [
+                        {
+                          "name": "L11N.cs",
+                          "size": 232
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Logging",
+                      "children": [
+                        {
+                          "name": "Error.cs",
+                          "size": 53
+                        },
+                        {
+                          "name": "Tracer.cs",
+                          "size": 34
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mail",
+                      "children": [
+                        {
+                          "name": "EWSService.cs",
+                          "size": 56
+                        },
+                        {
+                          "name": "Mail.cs",
+                          "size": 144
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Media",
+                      "children": [
+                        {
+                          "name": "MediaQuery.cs",
+                          "size": 227
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Properties",
+                      "children": [
+                        {
+                          "name": "AssemblyInfo.cs",
+                          "size": 15
+                        },
+                        {
+                          "name": "Settings.Designer.cs",
+                          "size": 113
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Pages",
+                      "children": [
+                        {
+                          "name": "PageBase.cs",
+                          "size": 71
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Repositories",
+                      "children": [
+                        {
+                          "name": "AlarmRepository.cs",
+                          "size": 20
+                        },
+                        {
+                          "name": "FavoritesRepository.cs",
+                          "size": 108
+                        },
+                        {
+                          "name": "PostRepository.cs",
+                          "size": 74
+                        },
+                        {
+                          "name": "RegisterItemRepository.cs",
+                          "size": 64
+                        },
+                        {
+                          "name": "SearchRepository.cs",
+                          "size": 64
+                        },
+                        {
+                          "name": "TaskRepository.cs",
+                          "size": 190
+                        },
+                        {
+                          "name": "FormRepository.cs",
+                          "size": 86
+                        },
+                        {
+                          "name": "LexiconRepository.cs",
+                          "size": 65
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Service",
+                      "children": [
+                        {
+                          "name": "IwwsService.cs",
+                          "size": 76
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Search",
+                      "children": [
+                        {
+                          "name": "MorphingSearch.cs",
+                          "size": 76
+                        },
+                        {
+                          "name": "FinalSearch.cs",
+                          "size": 74
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Routing",
+                      "children": [
+                        {
+                          "name": "DelegateHttpHandler.cs",
+                          "size": 34
+                        },
+                        {
+                          "name": "RouteValueDictionaryExtensions.cs",
+                          "size": 55
+                        },
+                        {
+                          "name": "HttpHandlerRouteHandler.cs",
+                          "size": 34
+                        },
+                        {
+                          "name": "NormalizeRoute.cs",
+                          "size": 76
+                        },
+                        {
+                          "name": "RouteExtensions.cs",
+                          "size": 87
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Template",
+                      "children": [
+                        {
+                          "name": "FormatFunction.cs",
+                          "size": 41
+                        },
+                        {
+                          "name": "TemplateEngine.cs",
+                          "size": 491
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Tools",
+                      "children": [
+                        {
+                          "name": "FeatureSwitchHelper.cs",
+                          "size": 23
+                        },
+                        {
+                          "name": "DebugUser.cs",
+                          "size": 63
+                        },
+                        {
+                          "name": "CookieManager.cs",
+                          "size": 33
+                        },
+                        {
+                          "name": "FileTemplate.cs",
+                          "size": 17
+                        },
+                        {
+                          "name": "FieldValue.cs",
+                          "size": 32
+                        },
+                        {
+                          "name": "Impersonator.cs",
+                          "size": 112
+                        },
+                        {
+                          "name": "LinkedContentResolver.cs",
+                          "size": 54
+                        },
+                        {
+                          "name": "MappedUser.cs",
+                          "size": 25
+                        },
+                        {
+                          "name": "ReflectionHelper.cs",
+                          "size": 25
+                        },
+                        {
+                          "name": "Slapper.cs",
+                          "size": 732
+                        },
+                        {
+                          "name": "UrlBuilder.cs",
+                          "size": 56
+                        },
+                        {
+                          "name": "SwitchUser.cs",
+                          "size": 119
+                        },
+                        {
+                          "name": "UserIdentity.cs",
+                          "size": 132
+                        },
+                        {
+                          "name": "Utility.cs",
+                          "size": 56
+                        }
+                      ]
+                    },
+                    {
+                      "name": "View",
+                      "children": [
+                        {
+                          "name": "AbstractEntityView.cs",
+                          "size": 96
+                        },
+                        {
+                          "name": "AlarmView.cs",
+                          "size": 29
+                        },
+                        {
+                          "name": "AppSmartieBarView.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "AppointmentView.cs",
+                          "size": 63
+                        },
+                        {
+                          "name": "AppView.cs",
+                          "size": 94
+                        },
+                        {
+                          "name": "ArticleView.cs",
+                          "size": 329
+                        },
+                        {
+                          "name": "AssetsView.cs",
+                          "size": 87
+                        },
+                        {
+                          "name": "ContactPersonView.cs",
+                          "size": 156
+                        },
+                        {
+                          "name": "DouglasCardCounterView.cs",
+                          "size": 26
+                        },
+                        {
+                          "name": "ErrorView.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "FavoritesView.cs",
+                          "size": 44
+                        },
+                        {
+                          "name": "HeaderRowView.cs",
+                          "size": 45
+                        },
+                        {
+                          "name": "FormularView.cs",
+                          "size": 75
+                        },
+                        {
+                          "name": "LexiconView.cs",
+                          "size": 228
+                        },
+                        {
+                          "name": "LinkedContentView.cs",
+                          "size": 145
+                        },
+                        {
+                          "name": "NavigationView.cs",
+                          "size": 125
+                        },
+                        {
+                          "name": "NFMView.cs",
+                          "size": 103
+                        },
+                        {
+                          "name": "PageView.cs",
+                          "size": 90
+                        },
+                        {
+                          "name": "PromolinkView.cs",
+                          "size": 28
+                        },
+                        {
+                          "name": "PromotionView.cs",
+                          "size": 37
+                        },
+                        {
+                          "name": "RegisterItemView.cs",
+                          "size": 116
+                        },
+                        {
+                          "name": "SearchView.cs",
+                          "size": 43
+                        },
+                        {
+                          "name": "TagFilterView.cs",
+                          "size": 58
+                        },
+                        {
+                          "name": "TaskView.cs",
+                          "size": 167
+                        },
+                        {
+                          "name": "TemplateView.cs",
+                          "size": 25
+                        },
+                        {
+                          "name": "UserProfileView.cs",
+                          "size": 84
+                        },
+                        {
+                          "name": "VideoView.cs",
+                          "size": 55
+                        },
+                        {
+                          "name": "VitracomView.cs",
+                          "size": 79
+                        },
+                        {
+                          "name": "WichtigeMitteilungenView.cs",
+                          "size": 50
+                        },
+                        {
+                          "name": "AdminView.cs",
+                          "size": 121
+                        }
+                      ]
+                    },
+                    {
+                      "name": "DB",
+                      "children": [
+                        {
+                          "name": "DatabaseModel.cs",
+                          "size": 18
+                        },
+                        {
+                          "name": "SQLMapper.cs",
+                          "size": 114
+                        },
+                        {
+                          "name": "DatabaseConnector.cs",
+                          "size": 14
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Viewmodel",
+                      "children": [
+                        {
+                          "name": "Appointment.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "AppSmartieBarElement.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "AppSmartieBar.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Asset.cs",
+                          "size": 17
+                        },
+                        {
+                          "name": "AssetMapping.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "AssetMappingVideo.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "Category.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Contact.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "ContactPicture.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "ContactRelatedAs.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Favorit.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Form.cs",
+                          "size": 53
+                        },
+                        {
+                          "name": "ImportantMessage.cs",
+                          "size": 16
+                        },
+                        {
+                          "name": "Lexicon.cs",
+                          "size": 9
+                        },
+                        {
+                          "name": "LinkedContent.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "Page.cs",
+                          "size": 53
+                        },
+                        {
+                          "name": "PostLinkedContent.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Post.cs",
+                          "size": 56
+                        },
+                        {
+                          "name": "PromotionLink.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "PostNFM.cs",
+                          "size": 29
+                        },
+                        {
+                          "name": "PromotionPhoto.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "RegisterItem.cs",
+                          "size": 56
+                        },
+                        {
+                          "name": "Task.cs",
+                          "size": 42
+                        },
+                        {
+                          "name": "Template.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Translate.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "VitracomPicture.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "VitracomSelectVST.cs",
+                          "size": 9
+                        },
+                        {
+                          "name": "Formular",
+                          "children": [
+                            {
+                              "name": "FormResultSet.cs",
+                              "size": 15
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "AssetResult.cs",
+                              "size": 21
+                            },
+                            {
+                              "name": "FullSearchResult.cs",
+                              "size": 62
+                            },
+                            {
+                              "name": "ContentResult.cs",
+                              "size": 60
+                            },
+                            {
+                              "name": "ContactResult.cs",
+                              "size": 32
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Module",
+                      "children": [
+                        {
+                          "name": "ModuleSwitch.cs",
+                          "size": 29
+                        },
+                        {
+                          "name": "COSyRedirect",
+                          "children": [
+                            {
+                              "name": "COSyRedirectSSO.cs",
+                              "size": 41
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Html",
+                      "children": [
+                        {
+                          "name": "Mail",
+                          "children": [
+                            {
+                              "name": "Ansprechpartner",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 23
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Default_Vorlage",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 22
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "TaskFeedbackCreater",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "TaskFeedbackReceiver",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 26
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "_311Received_MailTemplateTEST",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "_6Received_SchadensmeldungVersicherungsmanagement",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 161
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "FormularReceived",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "FormularConfirmation",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 14
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Inside",
+                          "children": [
+                            {
+                              "name": "Admin",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 7
+                                }
+                              ]
+                            },
+                            {
+                              "name": "AnsprechpartnerWithDetails",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Apps",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Appsmartiebar",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Apps_mobile",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Article",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ArticleDruckvorschau",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 10
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "AlarmBox",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Ansprechpartner",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 14
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ArticleOverview",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 44
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 47
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ArticleOverviewPrint",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 7
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Article_mobile",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ArticlePermissionList",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ContentPageHeader",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 9
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ContentPage",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 16
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "DouglasCardCounter",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 42
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ContentPageHeaderPrint",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ContentPagePrint",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 15
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ErrorPage",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 9
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 19
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Footer",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 22
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Formular",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 7
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "FavoritListe",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 9
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 7
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "FormularDruckvorschau",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "FormularInhaltsverzeichnis",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "FormularSuccess",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 15
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "KalenderTermineDruckvorschau",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "KontaktSuche",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 20
+                                }
+                              ]
+                            },
+                            {
+                              "name": "KalenderTermineEinzelanzeige",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 7
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LexiconViewerPDF",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 11
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "KalenderTermine",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LexikonDruckvorschauHeader",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LexiconViewerPDFInhaltsverzeichnis",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LexikonSidePanelInhaltsverzeichnisListe",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 7
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LexikonDruckvorschau",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LexikonViewerHandbuch",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 14
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 12
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LinkedContent",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "LexikonViewerInhaltsverzeichnis",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Navigation_mobile",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "NeuFuerMich",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 9
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 45
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "NeuFuerMichLegacy",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 47
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 44
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Navigation",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "NeuFuerMichPrint",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 7
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 4
+                                }
+                              ]
+                            },
+                            {
+                              "name": "NeuFuerMichPrintLegacy",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 7
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 20
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Permission",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "PromoLinks",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "RegisterItem",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 24
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "RegisterItemContents",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "PromoFotos",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "RegisterItemPrint",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 13
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Search",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 18
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SearchFilter",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 109
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 3
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SearchContact",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 11
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SearchMorphingArtikel",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SearchMorphingFooter",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ToDoListe",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 42
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 16
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SearchMorphingKontakte",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 11
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ToDoListeDruckvorschau",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 13
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 7
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ToDoListeEinzelAnzeigeDruckvorschau",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 18
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "SearchMorphingInhalt",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 9
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ToDoListeEinzelAnzeige",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 40
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ToDoListeGesamt",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 60
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 59
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "ToDoListeGesamtDruckvorschau",
+                              "children": [
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 32
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 2
+                                }
+                              ]
+                            },
+                            {
+                              "name": "TopBar",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 19
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "TopBar_mobile",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 6
+                                }
+                              ]
+                            },
+                            {
+                              "name": "UserProfileRelatedasContact",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 5
+                                }
+                              ]
+                            },
+                            {
+                              "name": "UserProfile",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 75
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Video",
+                              "children": [
+                                {
+                                  "name": "Footer.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 13
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 1
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Vitracom",
+                              "children": [
+                                {
+                                  "name": "Body.html",
+                                  "size": 8
+                                },
+                                {
+                                  "name": "FooterEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "FooterInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "BodyInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 3
+                                },
+                                {
+                                  "name": "HeaderEmpty.html",
+                                  "size": 6
+                                },
+                                {
+                                  "name": "HeaderInner.html",
+                                  "size": 1
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 7
+                                }
+                              ]
+                            },
+                            {
+                              "name": "WichtigeMitteilungen",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 21
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 7
+                                }
+                              ]
+                            },
+                            {
+                              "name": "Anhaenge",
+                              "children": [
+                                {
+                                  "name": "BodyEmpty.html",
+                                  "size": 2
+                                },
+                                {
+                                  "name": "Body.html",
+                                  "size": 5
+                                },
+                                {
+                                  "name": "Footer.html",
+                                  "size": 4
+                                },
+                                {
+                                  "name": "Header.html",
+                                  "size": 7
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Douglas.Inside",
+                  "children": [
+                    {
+                      "name": "File.cs",
+                      "size": 14
+                    },
+                    {
+                      "name": "Global.asax.cs",
+                      "size": 62
+                    },
+                    {
+                      "name": "Helper",
+                      "children": [
+                        {
+                          "name": "HtmlExtensions.cs",
+                          "size": 22
+                        },
+                        {
+                          "name": "UserInformationHelper.cs",
+                          "size": 23
+                        },
+                        {
+                          "name": "MultipartFormDataMemoryStreamProvider.cs",
+                          "size": 59
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Model",
+                      "children": [
+                        {
+                          "name": "PiwikModel.cs",
+                          "size": 43
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Controllers",
+                      "children": [
+                        {
+                          "name": "AlarmController.cs",
+                          "size": 16
+                        },
+                        {
+                          "name": "ArticleController.cs",
+                          "size": 55
+                        },
+                        {
+                          "name": "FormController.cs",
+                          "size": 26
+                        },
+                        {
+                          "name": "HomeController.cs",
+                          "size": 19
+                        },
+                        {
+                          "name": "ImportantMessageController.cs",
+                          "size": 16
+                        },
+                        {
+                          "name": "PromotionController.cs",
+                          "size": 16
+                        },
+                        {
+                          "name": "SidebarController.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "SearchController.cs",
+                          "size": 38
+                        },
+                        {
+                          "name": "TodoController.cs",
+                          "size": 83
+                        },
+                        {
+                          "name": "TopbarController.cs",
+                          "size": 21
+                        }
+                      ]
+                    },
+                    {
+                      "name": "App_Start",
+                      "children": [
+                        {
+                          "name": "RouteConfig.cs",
+                          "size": 283
+                        },
+                        {
+                          "name": "BundleConfig.cs",
+                          "size": 139
+                        },
+                        {
+                          "name": "WebApiConfig.cs",
+                          "size": 17
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Services",
+                      "children": [
+                        {
+                          "name": "ApplicationCache.cs",
+                          "size": 10
+                        },
+                        {
+                          "name": "FileService.cs",
+                          "size": 84
+                        },
+                        {
+                          "name": "FormResultService.cs",
+                          "size": 115
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Properties",
+                      "children": [
+                        {
+                          "name": "AssemblyInfo.cs",
+                          "size": 14
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Pages",
+                      "children": [
+                        {
+                          "name": "Appointment.aspx.cs",
+                          "size": 41
+                        },
+                        {
+                          "name": "Appointment.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "Admin.aspx.cs",
+                          "size": 38
+                        },
+                        {
+                          "name": "Article.aspx.cs",
+                          "size": 52
+                        },
+                        {
+                          "name": "Admin.aspx.designer.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "Article.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "ArticleOverview.aspx.cs",
+                          "size": 34
+                        },
+                        {
+                          "name": "ArticleOverview.aspx.designer.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "Content.aspx.cs",
+                          "size": 52
+                        },
+                        {
+                          "name": "Content.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "ErrorPage.aspx.cs",
+                          "size": 49
+                        },
+                        {
+                          "name": "ErrorPage.aspx.designer.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "Formular.aspx.cs",
+                          "size": 52
+                        },
+                        {
+                          "name": "Formular.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "FormularContents.aspx.designer.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "FormularContents.aspx.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "Home.aspx.cs",
+                          "size": 57
+                        },
+                        {
+                          "name": "Home.aspx.designer.cs",
+                          "size": 14
+                        },
+                        {
+                          "name": "Lexicon.aspx.cs",
+                          "size": 33
+                        },
+                        {
+                          "name": "Lexicon.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "LexiconContents.aspx.cs",
+                          "size": 26
+                        },
+                        {
+                          "name": "LexiconContents.aspx.designer.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "LexiconPDF.aspx.cs",
+                          "size": 46
+                        },
+                        {
+                          "name": "LexiconPDF.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "Permission.aspx.cs",
+                          "size": 21
+                        },
+                        {
+                          "name": "Permission.aspx.designer.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "Print.aspx.cs",
+                          "size": 71
+                        },
+                        {
+                          "name": "Print.aspx.designer.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "RegisterItem.aspx.cs",
+                          "size": 50
+                        },
+                        {
+                          "name": "RegisterItem.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "RegisterItemContents.aspx.designer.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "RegisterItemContents.aspx.cs",
+                          "size": 19
+                        },
+                        {
+                          "name": "Search.aspx.cs",
+                          "size": 38
+                        },
+                        {
+                          "name": "Search.aspx.designer.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "SetDifferentUser.aspx.cs",
+                          "size": 13
+                        },
+                        {
+                          "name": "SetDifferentUser.aspx.designer.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "SignInAsDifferentUser.aspx.cs",
+                          "size": 13
+                        },
+                        {
+                          "name": "SignInAsDifferentUser.aspx.designer.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Status.aspx.cs",
+                          "size": 17
+                        },
+                        {
+                          "name": "Status.aspx.designer.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "Task.aspx.cs",
+                          "size": 55
+                        },
+                        {
+                          "name": "Task.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "TaskList.aspx.cs",
+                          "size": 43
+                        },
+                        {
+                          "name": "TaskList.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "User.aspx.cs",
+                          "size": 28
+                        },
+                        {
+                          "name": "User.aspx.designer.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "Vitracom.aspx.cs",
+                          "size": 28
+                        },
+                        {
+                          "name": "Vitracom.aspx.designer.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "Error",
+                          "children": [
+                            {
+                              "name": "http401Unauthorized.aspx.cs",
+                              "size": 40
+                            },
+                            {
+                              "name": "http401Unauthorized.aspx.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "http403Forbidden.aspx.cs",
+                              "size": 40
+                            },
+                            {
+                              "name": "http403Forbidden.aspx.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "http404NotFound.aspx.cs",
+                              "size": 40
+                            },
+                            {
+                              "name": "http404NotFound.aspx.designer.cs",
+                              "size": 7
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Usrctrl",
+                      "children": [
+                        {
+                          "name": "Kalender.ascx.cs",
+                          "size": 43
+                        },
+                        {
+                          "name": "Kalender.ascx.designer.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Promolink.ascx.cs",
+                          "size": 37
+                        },
+                        {
+                          "name": "Promolink.ascx.designer.cs",
+                          "size": 6
+                        },
+                        {
+                          "name": "Layout",
+                          "children": [
+                            {
+                              "name": "FooterControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "FooterControl.ascx.cs",
+                              "size": 41
+                            },
+                            {
+                              "name": "HeaderControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "HeaderPrintControl.ascx.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "HeaderPrintControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "HeaderControl.ascx.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "MorphingsearchControl.ascx.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "MorphingsearchControl.ascx.designer.cs",
+                              "size": 5
+                            },
+                            {
+                              "name": "MorphingsearchScriptControl.ascx.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "MorphingsearchScriptControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "TopbarControl.ascx.cs",
+                              "size": 36
+                            },
+                            {
+                              "name": "TopbarControl.ascx.designer.cs",
+                              "size": 6
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Information",
+                          "children": [
+                            {
+                              "name": "AttachmentControl.ascx.cs",
+                              "size": 46
+                            },
+                            {
+                              "name": "ContactpersonControl.ascx.cs",
+                              "size": 62
+                            },
+                            {
+                              "name": "ContactpersonControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "AttachmentControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "LinkedcontentControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "TaggedfilterControl.ascx.cs",
+                              "size": 37
+                            },
+                            {
+                              "name": "LinkedcontentControl.ascx.cs",
+                              "size": 47
+                            },
+                            {
+                              "name": "TaggedfilterControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "UserrelatedcontentControl.ascx.cs",
+                              "size": 40
+                            },
+                            {
+                              "name": "UserrelatedcontentControl.ascx.designer.cs",
+                              "size": 6
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Content",
+                          "children": [
+                            {
+                              "name": "AppointmentControl.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "AlarmControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "AppointmentControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "AlarmControl.ascx.cs",
+                              "size": 38
+                            },
+                            {
+                              "name": "ArticleControl.ascx.cs",
+                              "size": 61
+                            },
+                            {
+                              "name": "ArticleControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "ContentpageheaderControl.ascx.cs",
+                              "size": 38
+                            },
+                            {
+                              "name": "ContentpageheaderControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "DouglasCardCounterControl.ascx.cs",
+                              "size": 42
+                            },
+                            {
+                              "name": "DouglasCardCounterControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "FavoritControl.ascx.cs",
+                              "size": 35
+                            },
+                            {
+                              "name": "FavoritControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "FormularControl.ascx.cs",
+                              "size": 50
+                            },
+                            {
+                              "name": "FormularControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "FormularsuccessControl.ascx.cs",
+                              "size": 47
+                            },
+                            {
+                              "name": "FormularsuccessControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "ImportantmessageControl.ascx.cs",
+                              "size": 39
+                            },
+                            {
+                              "name": "ImportantmessageControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "LexiconControl.ascx.cs",
+                              "size": 51
+                            },
+                            {
+                              "name": "LexiconControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "LexiconPDFControl.ascx.cs",
+                              "size": 49
+                            },
+                            {
+                              "name": "LexiconPDFControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "LexiconsidebarControl.ascx.cs",
+                              "size": 66
+                            },
+                            {
+                              "name": "LexiconsidebarControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "MenuAppControl.ascx.cs",
+                              "size": 37
+                            },
+                            {
+                              "name": "MenuAppControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "MenuControl.ascx.cs",
+                              "size": 33
+                            },
+                            {
+                              "name": "MenuControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "MenuNavigationControl.ascx.cs",
+                              "size": 37
+                            },
+                            {
+                              "name": "MenuNavigationControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "NewformeControl.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "NewformeControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "PermissionControl.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "PermissionControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "PromotionControl.ascx.cs",
+                              "size": 37
+                            },
+                            {
+                              "name": "PromotionControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "RegisterItemContentControl.ascx.cs",
+                              "size": 39
+                            },
+                            {
+                              "name": "RegisterItemContentControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "RegisterItemControl.ascx.cs",
+                              "size": 39
+                            },
+                            {
+                              "name": "RegisterItemControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "SearchcontactControl.ascx.cs",
+                              "size": 50
+                            },
+                            {
+                              "name": "SearchcontactControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "SearchControl.ascx.cs",
+                              "size": 50
+                            },
+                            {
+                              "name": "SearchControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "SearchfilterControl.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "SearchfilterControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "TaskControl.ascx.cs",
+                              "size": 41
+                            },
+                            {
+                              "name": "TaskControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "TaskListControl.ascx.cs",
+                              "size": 41
+                            },
+                            {
+                              "name": "TaskListControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "TaskOverviewControl.ascx.cs",
+                              "size": 41
+                            },
+                            {
+                              "name": "TaskOverviewControl.ascx.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "UserprofileControl.ascx.cs",
+                              "size": 38
+                            },
+                            {
+                              "name": "UserprofileControl.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "VitracomControl.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "VitracomControl.ascx.designer.cs",
+                              "size": 6
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PrintCtrl",
+                          "children": [
+                            {
+                              "name": "PrintAppointment.ascx.cs",
+                              "size": 45
+                            },
+                            {
+                              "name": "PrintArticle.ascx.cs",
+                              "size": 45
+                            },
+                            {
+                              "name": "PrintArticle.ascx.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "PrintAppointment.ascx.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "PrintContentPage.ascx.cs",
+                              "size": 39
+                            },
+                            {
+                              "name": "PrintContentPage.ascx.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "PrintFormular.ascx.cs",
+                              "size": 45
+                            },
+                            {
+                              "name": "PrintFormular.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "PrintLexicon.ascx.cs",
+                              "size": 56
+                            },
+                            {
+                              "name": "PrintLexicon.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "PrintNFM.ascx.cs",
+                              "size": 44
+                            },
+                            {
+                              "name": "PrintNFM.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "PrintRegisterItem.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "PrintRegisterItem.ascx.cs",
+                              "size": 41
+                            },
+                            {
+                              "name": "PrintTask.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "PrintTask.ascx.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "PrintTaskList.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "PrintTaskList.ascx.designer.cs",
+                              "size": 6
+                            },
+                            {
+                              "name": "PrintTaskOverview.ascx.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "PrintTaskOverview.ascx.designer.cs",
+                              "size": 6
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Views",
+                      "children": [
+                        {
+                          "name": "_ViewStart.cshtml",
+                          "size": 3
+                        },
+                        {
+                          "name": "Article",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 51
+                            },
+                            {
+                              "name": "_Items.cshtml",
+                              "size": 12
+                            },
+                            {
+                              "name": "_Home.cshtml",
+                              "size": 92
+                            },
+                            {
+                              "name": "_PermissionList.cshtml",
+                              "size": 12
+                            },
+                            {
+                              "name": "IndexPrint.cshtml",
+                              "size": 12
+                            },
+                            {
+                              "name": "List.cshtml",
+                              "size": 85
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Admin",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 28
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Alarm",
+                          "children": [
+                            {
+                              "name": "_Home.cshtml",
+                              "size": 25
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Error",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 29
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Home",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 26
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Lexicon",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 41
+                            },
+                            {
+                              "name": "_ViewerPdf.cshtml",
+                              "size": 18
+                            },
+                            {
+                              "name": "_ViewerPdfContentTable.cshtml",
+                              "size": 15
+                            },
+                            {
+                              "name": "List.cshtml",
+                              "size": 15
+                            },
+                            {
+                              "name": "_ContentTable.cshtml",
+                              "size": 35
+                            },
+                            {
+                              "name": "IndexPrint.cshtml",
+                              "size": 13
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Form",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 13
+                            },
+                            {
+                              "name": "List.cshtml",
+                              "size": 16
+                            },
+                            {
+                              "name": "Success.cshtml",
+                              "size": 36
+                            }
+                          ]
+                        },
+                        {
+                          "name": "ImportantMessage",
+                          "children": [
+                            {
+                              "name": "_Home.cshtml",
+                              "size": 46
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Page",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 22
+                            },
+                            {
+                              "name": "_HeaderPrint.cshtml",
+                              "size": 8
+                            },
+                            {
+                              "name": "Print.cshtml",
+                              "size": 21
+                            },
+                            {
+                              "name": "_Appsmartiebar.cshtml",
+                              "size": 9
+                            },
+                            {
+                              "name": "_Header.cshtml",
+                              "size": 10
+                            }
+                          ]
+                        },
+                        {
+                          "name": "RegisterItem",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 35
+                            },
+                            {
+                              "name": "IndexPrint.cshtml",
+                              "size": 23
+                            },
+                            {
+                              "name": "List.cshtml",
+                              "size": 16
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Promotion",
+                          "children": [
+                            {
+                              "name": "_Home.cshtml",
+                              "size": 25
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Search",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 11
+                            },
+                            {
+                              "name": "_Contact.cshtml",
+                              "size": 34
+                            },
+                            {
+                              "name": "_MorphingContact.cshtml",
+                              "size": 25
+                            },
+                            {
+                              "name": "_MorphingContent.cshtml",
+                              "size": 24
+                            },
+                            {
+                              "name": "_MorphingFooter.cshtml",
+                              "size": 6
+                            },
+                            {
+                              "name": "_MorphingSearch.cshtml",
+                              "size": 22
+                            },
+                            {
+                              "name": "_Result.cshtml",
+                              "size": 58
+                            },
+                            {
+                              "name": "_Filter.cshtml",
+                              "size": 132
+                            },
+                            {
+                              "name": "_MorphingArticle.cshtml",
+                              "size": 23
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Shared",
+                          "children": [
+                            {
+                              "name": "_LayoutMobile.cshtml",
+                              "size": 65
+                            },
+                            {
+                              "name": "_LayoutPrint.cshtml",
+                              "size": 19
+                            },
+                            {
+                              "name": "_Modal.cshtml",
+                              "size": 21
+                            },
+                            {
+                              "name": "_Piwik.cshtml",
+                              "size": 20
+                            },
+                            {
+                              "name": "_Video.cshtml",
+                              "size": 14
+                            },
+                            {
+                              "name": "_Footer.cshtml",
+                              "size": 102
+                            },
+                            {
+                              "name": "_Layout.cshtml",
+                              "size": 88
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Sidebar",
+                          "children": [
+                            {
+                              "name": "_Contacts.cshtml",
+                              "size": 40
+                            },
+                            {
+                              "name": "_LinkedContent.cshtml",
+                              "size": 26
+                            },
+                            {
+                              "name": "_Attachments.cshtml",
+                              "size": 26
+                            },
+                            {
+                              "name": "_MenuApps.cshtml",
+                              "size": 52
+                            },
+                            {
+                              "name": "_Menu.cshtml",
+                              "size": 22
+                            },
+                            {
+                              "name": "_MenuNavigation.cshtml",
+                              "size": 25
+                            },
+                            {
+                              "name": "_MenuFavorites.cshtml",
+                              "size": 31
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Todo",
+                          "children": [
+                            {
+                              "name": "HomePrint.cshtml",
+                              "size": 48
+                            },
+                            {
+                              "name": "List.cshtml",
+                              "size": 143
+                            },
+                            {
+                              "name": "Index.cshtml",
+                              "size": 56
+                            },
+                            {
+                              "name": "_Home.cshtml",
+                              "size": 86
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Topbar",
+                          "children": [
+                            {
+                              "name": "_Full.cshtml",
+                              "size": 35
+                            }
+                          ]
+                        },
+                        {
+                          "name": "User",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 30
+                            },
+                            {
+                              "name": "_Profile.cshtml",
+                              "size": 67
+                            },
+                            {
+                              "name": "_RelatedContent.cshtml",
+                              "size": 28
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Vitracom",
+                          "children": [
+                            {
+                              "name": "Index.cshtml",
+                              "size": 38
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "API",
+                      "children": [
+                        {
+                          "name": "Models",
+                          "children": [
+                            {
+                              "name": "MailModel.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "Favorit.cs",
+                              "size": 9
+                            },
+                            {
+                              "name": "NFM.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "TaskAssignForm.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "MorphingSearch.cs",
+                              "size": 8
+                            },
+                            {
+                              "name": "TaskCompletionForm.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "TaskOptions.cs",
+                              "size": 11
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Controllers",
+                          "children": [
+                            {
+                              "name": "EmployeeController.cs",
+                              "size": 30
+                            },
+                            {
+                              "name": "FavoritController.cs",
+                              "size": 41
+                            },
+                            {
+                              "name": "IWWSController.cs",
+                              "size": 35
+                            },
+                            {
+                              "name": "FileController.cs",
+                              "size": 38
+                            },
+                            {
+                              "name": "MailController.cs",
+                              "size": 64
+                            },
+                            {
+                              "name": "FormController.cs",
+                              "size": 173
+                            },
+                            {
+                              "name": "NFMController.cs",
+                              "size": 70
+                            },
+                            {
+                              "name": "MorphingSearchController.cs",
+                              "size": 21
+                            },
+                            {
+                              "name": "TaskController.cs",
+                              "size": 67
+                            },
+                            {
+                              "name": "SearchController.cs",
+                              "size": 31
+                            },
+                            {
+                              "name": "UserInformationController.cs",
+                              "size": 20
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Douglas.Inside.MasterPages",
+              "children": [
+                {
+                  "name": "Douglas.Inside.MasterPages",
+                  "children": [
+                    {
+                      "name": "App_Start",
+                      "children": [
+                        {
+                          "name": "BundleConfig.cs",
+                          "size": 192
+                        },
+                        {
+                          "name": "RouteConfig.cs",
+                          "size": 23
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Model",
+                      "children": [
+                        {
+                          "name": "PiwikModel.cs",
+                          "size": 43
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Properties",
+                      "children": [
+                        {
+                          "name": "AssemblyInfo.cs",
+                          "size": 15
+                        },
+                        {
+                          "name": "Settings.Designer.cs",
+                          "size": 29
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Helper",
+                      "children": [
+                        {
+                          "name": "CssHelper.cs",
+                          "size": 34
+                        },
+                        {
+                          "name": "EmbeddedHelper.cs",
+                          "size": 57
+                        },
+                        {
+                          "name": "DBSelectionHelper.cs",
+                          "size": 77
+                        },
+                        {
+                          "name": "BasePathHelper.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "LayoutHelper.cs",
+                          "size": 52
+                        },
+                        {
+                          "name": "LocalizationHelper.cs",
+                          "size": 50
+                        },
+                        {
+                          "name": "MobileHelper.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "PermissionHelper.cs",
+                          "size": 77
+                        },
+                        {
+                          "name": "PiwikHelper.cs",
+                          "size": 20
+                        },
+                        {
+                          "name": "DynamicHelper.cs",
+                          "size": 37
+                        }
+                      ]
+                    },
+                    {
+                      "name": "VirtualProvider",
+                      "children": [
+                        {
+                          "name": "EmbeddedVirtualPathProvider.cs",
+                          "size": 145
+                        }
+                      ]
+                    },
+                    {
+                      "name": "View",
+                      "children": [
+                        {
+                          "name": "Layout",
+                          "children": [
+                            {
+                              "name": "Layout_ContentPlusSidebar.master.designer.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "Layout_ContentPlusSidebar.master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Layout_ContentPlusSidebar_Mobile.master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Layout_ContentPlusSidebar_Mobile.master.designer.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "Layout_ContentPlusSidebar_WithoutSearch.master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Layout_ContentPlusSidebar_WithoutSearch.master.designer.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "Layout_ContentPlusSidebar_WithoutSearch_Mobile.master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Layout_ContentPlusSidebar_WithoutSearch_Mobile.master.designer.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "Layout_Content_WithMenu.master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Layout_Content_WithMenu.master.designer.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "Layout_Content_WithMenu_Mobile.master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Layout_Content_WithMenu_Mobile.master.designer.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "Layout_Content_WithoutMenu.master.designer.cs",
+                              "size": 7
+                            },
+                            {
+                              "name": "Layout_Content_WithoutMenu.master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Layout_Print.master.cs",
+                              "size": 10
+                            },
+                            {
+                              "name": "Layout_Print.master.designer.cs",
+                              "size": 7
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Master",
+                          "children": [
+                            {
+                              "name": "DouglasInside.Master.cs",
+                              "size": 13
+                            },
+                            {
+                              "name": "DouglasInside.Master.designer.cs",
+                              "size": 16
+                            },
+                            {
+                              "name": "DouglasInsideMobile.Master.cs",
+                              "size": 13
+                            },
+                            {
+                              "name": "DouglasInsideMobile.Master.designer.cs",
+                              "size": 16
+                            },
+                            {
+                              "name": "DouglasInsidePrint.Master.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "DouglasInsidePrint.Master.designer.cs",
+                              "size": 8
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

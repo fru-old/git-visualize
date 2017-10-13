@@ -1,0 +1,1990 @@
+{
+  "name": "Source",
+  "children": [
+    {
+      "name": "inside",
+      "children": [
+        {
+          "name": "Douglas.Inside",
+          "children": [
+            {
+              "name": "Douglas.Inside.Tests",
+              "children": [
+                {
+                  "name": "Properties",
+                  "children": [
+                    {
+                      "name": "AssemblyInfo.cs",
+                      "size": 15
+                    }
+                  ]
+                },
+                {
+                  "name": "View",
+                  "children": [
+                    {
+                      "name": "ArticleViewTests.cs",
+                      "size": 19
+                    }
+                  ]
+                },
+                {
+                  "name": "obj",
+                  "children": [
+                    {
+                      "name": "Debug",
+                      "children": [
+                        {
+                          "name": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+                          "size": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Douglas.Inside.Utilities",
+              "children": [
+                {
+                  "name": "DB",
+                  "children": [
+                    {
+                      "name": "DatabaseConnector.cs",
+                      "size": 14
+                    },
+                    {
+                      "name": "DatabaseModel.cs",
+                      "size": 18
+                    },
+                    {
+                      "name": "SQLMapper.cs",
+                      "size": 113
+                    }
+                  ]
+                },
+                {
+                  "name": "Handler",
+                  "children": [
+                    {
+                      "name": "MediaHttpHandler.cs",
+                      "size": 38
+                    }
+                  ]
+                },
+                {
+                  "name": "Caching",
+                  "children": [
+                    {
+                      "name": "RequestCaching.cs",
+                      "size": 90
+                    }
+                  ]
+                },
+                {
+                  "name": "Localization",
+                  "children": [
+                    {
+                      "name": "L11N.cs",
+                      "size": 274
+                    }
+                  ]
+                },
+                {
+                  "name": "Logging",
+                  "children": [
+                    {
+                      "name": "Error.cs",
+                      "size": 58
+                    },
+                    {
+                      "name": "Tracer.cs",
+                      "size": 34
+                    }
+                  ]
+                },
+                {
+                  "name": "Mail",
+                  "children": [
+                    {
+                      "name": "EWSService.cs",
+                      "size": 50
+                    },
+                    {
+                      "name": "Mail.cs",
+                      "size": 95
+                    }
+                  ]
+                },
+                {
+                  "name": "Media",
+                  "children": [
+                    {
+                      "name": "MediaQuery.cs",
+                      "size": 227
+                    }
+                  ]
+                },
+                {
+                  "name": "CoreEngine",
+                  "children": [
+                    {
+                      "name": "AppCache.cs",
+                      "size": 34
+                    },
+                    {
+                      "name": "AsyncTask.cs",
+                      "size": 58
+                    },
+                    {
+                      "name": "ControlHandler.cs",
+                      "size": 58
+                    },
+                    {
+                      "name": "WPSettingsStatic.cs",
+                      "size": 8
+                    }
+                  ]
+                },
+                {
+                  "name": "Routing",
+                  "children": [
+                    {
+                      "name": "DelegateHttpHandler.cs",
+                      "size": 34
+                    },
+                    {
+                      "name": "HttpHandlerRouteHandler.cs",
+                      "size": 34
+                    },
+                    {
+                      "name": "RouteExtensions.cs",
+                      "size": 87
+                    },
+                    {
+                      "name": "RouteValueDictionaryExtensions.cs",
+                      "size": 55
+                    },
+                    {
+                      "name": "NormalizeRoute.cs",
+                      "size": 76
+                    }
+                  ]
+                },
+                {
+                  "name": "Repositories",
+                  "children": [
+                    {
+                      "name": "AdminRepository.cs",
+                      "size": 127
+                    },
+                    {
+                      "name": "FavoritesRepository.cs",
+                      "size": 120
+                    },
+                    {
+                      "name": "FormRepository.cs",
+                      "size": 87
+                    },
+                    {
+                      "name": "AbstractRepository.cs",
+                      "size": 67
+                    },
+                    {
+                      "name": "LexiconRepository.cs",
+                      "size": 69
+                    },
+                    {
+                      "name": "PageRepository.cs",
+                      "size": 88
+                    },
+                    {
+                      "name": "PostRepository.cs",
+                      "size": 118
+                    },
+                    {
+                      "name": "PromotionRepository.cs",
+                      "size": 20
+                    },
+                    {
+                      "name": "RegisterItemRepository.cs",
+                      "size": 64
+                    },
+                    {
+                      "name": "SearchRepository.cs",
+                      "size": 71
+                    },
+                    {
+                      "name": "SidebarRepository.cs",
+                      "size": 172
+                    },
+                    {
+                      "name": "TaskRepository.cs",
+                      "size": 175
+                    },
+                    {
+                      "name": "UserRepository.cs",
+                      "size": 29
+                    },
+                    {
+                      "name": "VitracomRepository.cs",
+                      "size": 59
+                    },
+                    {
+                      "name": "AppRepository.cs",
+                      "size": 117
+                    },
+                    {
+                      "name": "AlarmRepository.cs",
+                      "size": 20
+                    }
+                  ]
+                },
+                {
+                  "name": "Tools",
+                  "children": [
+                    {
+                      "name": "CookieManager.cs",
+                      "size": 33
+                    },
+                    {
+                      "name": "Impersonator.cs",
+                      "size": 112
+                    },
+                    {
+                      "name": "LinkedContentResolver.cs",
+                      "size": 54
+                    },
+                    {
+                      "name": "DebugUser.cs",
+                      "size": 35
+                    },
+                    {
+                      "name": "MappedUser.cs",
+                      "size": 25
+                    },
+                    {
+                      "name": "Slapper.cs",
+                      "size": 732
+                    },
+                    {
+                      "name": "SwitchUser.cs",
+                      "size": 119
+                    },
+                    {
+                      "name": "UrlBuilder.cs",
+                      "size": 56
+                    },
+                    {
+                      "name": "UserIdentity.cs",
+                      "size": 167
+                    },
+                    {
+                      "name": "FeatureSwitchHelper.cs",
+                      "size": 23
+                    }
+                  ]
+                },
+                {
+                  "name": "Service",
+                  "children": [
+                    {
+                      "name": "IwwsService.cs",
+                      "size": 76
+                    }
+                  ]
+                },
+                {
+                  "name": "Properties",
+                  "children": [
+                    {
+                      "name": "Settings.Designer.cs",
+                      "size": 113
+                    },
+                    {
+                      "name": "AssemblyInfo.cs",
+                      "size": 15
+                    }
+                  ]
+                },
+                {
+                  "name": "Module",
+                  "children": [
+                    {
+                      "name": "ModuleSwitch.cs",
+                      "size": 29
+                    },
+                    {
+                      "name": "COSyRedirect",
+                      "children": [
+                        {
+                          "name": "COSyRedirectSSO.cs",
+                          "size": 41
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Viewmodel",
+                  "children": [
+                    {
+                      "name": "Appointment.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "AppSmartieBar.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "AppSmartieBarElement.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "Asset.cs",
+                      "size": 17
+                    },
+                    {
+                      "name": "AssetMapping.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "AssetMappingVideo.cs",
+                      "size": 7
+                    },
+                    {
+                      "name": "Category.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "Contact.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "ContactPicture.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "ContactRelatedAs.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "Favorit.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "Form.cs",
+                      "size": 53
+                    },
+                    {
+                      "name": "ImportantMessage.cs",
+                      "size": 16
+                    },
+                    {
+                      "name": "LinkedContent.cs",
+                      "size": 12
+                    },
+                    {
+                      "name": "Page.cs",
+                      "size": 53
+                    },
+                    {
+                      "name": "Post.cs",
+                      "size": 56
+                    },
+                    {
+                      "name": "PostLinkedContent.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "PostNFM.cs",
+                      "size": 29
+                    },
+                    {
+                      "name": "PromotionLink.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "PromotionPhoto.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "Lexicon.cs",
+                      "size": 9
+                    },
+                    {
+                      "name": "Task.cs",
+                      "size": 42
+                    },
+                    {
+                      "name": "Template.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "Translate.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "VitracomPicture.cs",
+                      "size": 6
+                    },
+                    {
+                      "name": "VitracomSelectVST.cs",
+                      "size": 9
+                    },
+                    {
+                      "name": "RegisterItem.cs",
+                      "size": 56
+                    },
+                    {
+                      "name": "Formular",
+                      "children": [
+                        {
+                          "name": "FormResultSet.cs",
+                          "size": 15
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Search",
+                      "children": [
+                        {
+                          "name": "AssetResult.cs",
+                          "size": 21
+                        },
+                        {
+                          "name": "ContactResult.cs",
+                          "size": 32
+                        },
+                        {
+                          "name": "ContentResult.cs",
+                          "size": 60
+                        },
+                        {
+                          "name": "FullSearchResult.cs",
+                          "size": 62
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "obj",
+                  "children": [
+                    {
+                      "name": "Debug",
+                      "children": [
+                        {
+                          "name": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+                          "size": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Douglas.Inside.Shared",
+              "children": [
+                {
+                  "name": "Encryption",
+                  "children": [
+                    {
+                      "name": "RijndaelEncryption.cs",
+                      "size": 26
+                    }
+                  ]
+                },
+                {
+                  "name": "Quartz",
+                  "children": [
+                    {
+                      "name": "AbstractJob.cs",
+                      "size": 34
+                    },
+                    {
+                      "name": "JobAuditlistener.cs",
+                      "size": 73
+                    },
+                    {
+                      "name": "QuartzSettings.cs",
+                      "size": 36
+                    }
+                  ]
+                },
+                {
+                  "name": "Properties",
+                  "children": [
+                    {
+                      "name": "Settings.Designer.cs",
+                      "size": 53
+                    },
+                    {
+                      "name": "AssemblyInfo.cs",
+                      "size": 15
+                    }
+                  ]
+                },
+                {
+                  "name": "WebApiExtension",
+                  "children": [
+                    {
+                      "name": "WebApiExtension.cs",
+                      "size": 61
+                    }
+                  ]
+                },
+                {
+                  "name": "obj",
+                  "children": [
+                    {
+                      "name": "Debug",
+                      "children": [
+                        {
+                          "name": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+                          "size": 1
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "DB",
+                  "children": [
+                    {
+                      "name": "DBConnectionSelector.cs",
+                      "size": 82
+                    },
+                    {
+                      "name": "GroundplanContext.cs",
+                      "size": 30
+                    },
+                    {
+                      "name": "InsideContext.cs",
+                      "size": 45
+                    },
+                    {
+                      "name": "MasterdataContext.cs",
+                      "size": 14
+                    },
+                    {
+                      "name": "PlanogramContext.cs",
+                      "size": 30
+                    },
+                    {
+                      "name": "QuartzContext.cs",
+                      "size": 30
+                    },
+                    {
+                      "name": "VMContext.cs",
+                      "size": 46
+                    },
+                    {
+                      "name": "DBSelector.cs",
+                      "size": 135
+                    },
+                    {
+                      "name": "Shared",
+                      "children": [
+                        {
+                          "name": "BaseEntityActivatable.cs",
+                          "size": 16
+                        },
+                        {
+                          "name": "IExpireDateEntity.cs",
+                          "size": 13
+                        },
+                        {
+                          "name": "IHierarchyEntity.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "ILastUserEntity.cs",
+                          "size": 9
+                        },
+                        {
+                          "name": "IRootEntity.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "BaseEntityVersioned.cs",
+                          "size": 21
+                        },
+                        {
+                          "name": "IVersionEntity.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "IWizardEntity.cs",
+                          "size": 14
+                        },
+                        {
+                          "name": "PermissionMapping.cs",
+                          "size": 27
+                        },
+                        {
+                          "name": "BaseEntityVersionedContact.cs",
+                          "size": 10
+                        },
+                        {
+                          "name": "IActivateEntity.cs",
+                          "size": 10
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Entities",
+                      "children": [
+                        {
+                          "name": "import",
+                          "children": [
+                            {
+                              "name": "ADInsideGroup.cs",
+                              "size": 21
+                            },
+                            {
+                              "name": "Mitarbeitersuche.cs",
+                              "size": 90
+                            },
+                            {
+                              "name": "SAPFilialstamm.cs",
+                              "size": 156
+                            },
+                            {
+                              "name": "ADMailGroup.cs",
+                              "size": 35
+                            },
+                            {
+                              "name": "UserGroups.cs",
+                              "size": 22
+                            },
+                            {
+                              "name": "ADSIBenutzer.cs",
+                              "size": 110
+                            }
+                          ]
+                        },
+                        {
+                          "name": "quartz",
+                          "children": [
+                            {
+                              "name": "JobAudit.cs",
+                              "size": 28
+                            }
+                          ]
+                        },
+                        {
+                          "name": "master",
+                          "children": [
+                            {
+                              "name": "T_SAP_Filialstamm.cs",
+                              "size": 155
+                            }
+                          ]
+                        },
+                        {
+                          "name": "planogram",
+                          "children": [
+                            {
+                              "name": "Picture.cs",
+                              "size": 18
+                            }
+                          ]
+                        },
+                        {
+                          "name": "view",
+                          "children": [
+                            {
+                              "name": "Alarm.cs",
+                              "size": 41
+                            },
+                            {
+                              "name": "AppSmartieBarElement.cs",
+                              "size": 30
+                            },
+                            {
+                              "name": "App.cs",
+                              "size": 56
+                            },
+                            {
+                              "name": "AssetMapping.cs",
+                              "size": 57
+                            },
+                            {
+                              "name": "Category.cs",
+                              "size": 26
+                            },
+                            {
+                              "name": "Contact.cs",
+                              "size": 113
+                            },
+                            {
+                              "name": "ContactPerson.cs",
+                              "size": 40
+                            },
+                            {
+                              "name": "ContactPicture.cs",
+                              "size": 119
+                            },
+                            {
+                              "name": "Appointment.cs",
+                              "size": 54
+                            },
+                            {
+                              "name": "ContactRelatedAs.cs",
+                              "size": 32
+                            },
+                            {
+                              "name": "Favorit.cs",
+                              "size": 26
+                            },
+                            {
+                              "name": "Employee.cs",
+                              "size": 18
+                            },
+                            {
+                              "name": "FeatureSwitch.cs",
+                              "size": 20
+                            },
+                            {
+                              "name": "Form.cs",
+                              "size": 53
+                            },
+                            {
+                              "name": "FormAutoFill.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "Lexicon.cs",
+                              "size": 56
+                            },
+                            {
+                              "name": "FormContentList.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "LexiconLinkedContent.cs",
+                              "size": 26
+                            },
+                            {
+                              "name": "PageLinkedContent.cs",
+                              "size": 27
+                            },
+                            {
+                              "name": "NavigationLive.cs",
+                              "size": 42
+                            },
+                            {
+                              "name": "Page.cs",
+                              "size": 60
+                            },
+                            {
+                              "name": "PostLinkedContent.cs",
+                              "size": 26
+                            },
+                            {
+                              "name": "Post.cs",
+                              "size": 63
+                            },
+                            {
+                              "name": "PostNFM.cs",
+                              "size": 33
+                            },
+                            {
+                              "name": "PromotionLink.cs",
+                              "size": 38
+                            },
+                            {
+                              "name": "PromotionPhoto.cs",
+                              "size": 48
+                            },
+                            {
+                              "name": "PostPermissionReadStatus.cs",
+                              "size": 27
+                            },
+                            {
+                              "name": "RegisterItem.cs",
+                              "size": 62
+                            },
+                            {
+                              "name": "Script.cs",
+                              "size": 40
+                            },
+                            {
+                              "name": "RegisterItemCategroyMapping.cs",
+                              "size": 19
+                            },
+                            {
+                              "name": "Task.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "Template.cs",
+                              "size": 64
+                            },
+                            {
+                              "name": "Translate.cs",
+                              "size": 61
+                            },
+                            {
+                              "name": "VitracomPicture.cs",
+                              "size": 25
+                            },
+                            {
+                              "name": "VMCampaignPickerView.cs",
+                              "size": 24
+                            },
+                            {
+                              "name": "VMCampaignFiltered.cs",
+                              "size": 16
+                            },
+                            {
+                              "name": "VMCampaignView.cs",
+                              "size": 30
+                            },
+                            {
+                              "name": "VMPromotionFiltered.cs",
+                              "size": 18
+                            },
+                            {
+                              "name": "VMPromotionFurnitureView.cs",
+                              "size": 25
+                            },
+                            {
+                              "name": "VMProductView.cs",
+                              "size": 31
+                            },
+                            {
+                              "name": "VMPromotionView.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "VMResultFavoriteView.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "VMResultFilterFurnitureView.cs",
+                              "size": 20
+                            },
+                            {
+                              "name": "VMResultFilterView.cs",
+                              "size": 27
+                            },
+                            {
+                              "name": "VMResultImageView.cs",
+                              "size": 20
+                            },
+                            {
+                              "name": "VMResultFilterVSTView.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "VMResultQuestionMappingView.cs",
+                              "size": 28
+                            },
+                            {
+                              "name": "VMTypeQuestionView.cs",
+                              "size": 24
+                            },
+                            {
+                              "name": "VMResultView.cs",
+                              "size": 75
+                            },
+                            {
+                              "name": "VMTypeView.cs",
+                              "size": 18
+                            },
+                            {
+                              "name": "AppSmartieBar.cs",
+                              "size": 26
+                            }
+                          ]
+                        },
+                        {
+                          "name": "edit",
+                          "children": [
+                            {
+                              "name": "ADInsideGroupBlacklist.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "App.cs",
+                              "size": 36
+                            },
+                            {
+                              "name": "Appointment.cs",
+                              "size": 46
+                            },
+                            {
+                              "name": "Alarm.cs",
+                              "size": 32
+                            },
+                            {
+                              "name": "AppPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "AppSmartieBar.cs",
+                              "size": 33
+                            },
+                            {
+                              "name": "AppSmartieBarElement.cs",
+                              "size": 22
+                            },
+                            {
+                              "name": "AppSmartieBarElementPermissionMapping.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "AssetMapping.cs",
+                              "size": 33
+                            },
+                            {
+                              "name": "AssetMappingPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "AssetMappingWithFilePath.cs",
+                              "size": 59
+                            },
+                            {
+                              "name": "Category.cs",
+                              "size": 43
+                            },
+                            {
+                              "name": "CleaningScheduleResult.cs",
+                              "size": 21
+                            },
+                            {
+                              "name": "Contact.cs",
+                              "size": 86
+                            },
+                            {
+                              "name": "CleaningSchedule.cs",
+                              "size": 36
+                            },
+                            {
+                              "name": "ContactPerson.cs",
+                              "size": 30
+                            },
+                            {
+                              "name": "ContactFilter.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "ContactPicture.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "ErrorLog.cs",
+                              "size": 25
+                            },
+                            {
+                              "name": "FeatureSwitch.cs",
+                              "size": 24
+                            },
+                            {
+                              "name": "Favorit.cs",
+                              "size": 19
+                            },
+                            {
+                              "name": "FeatureSwitchPermissionMapping.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "FireSafetyInfoAppointment.cs",
+                              "size": 16
+                            },
+                            {
+                              "name": "FireSafetyInfoPerson.cs",
+                              "size": 23
+                            },
+                            {
+                              "name": "FireSafetyInfoStore.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "FLReport.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "Form.cs",
+                              "size": 75
+                            },
+                            {
+                              "name": "FormAutoFill.cs",
+                              "size": 18
+                            },
+                            {
+                              "name": "FormOptionBasic.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "FormOptionEmail.cs",
+                              "size": 20
+                            },
+                            {
+                              "name": "FormPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "FormResult.cs",
+                              "size": 24
+                            },
+                            {
+                              "name": "FormResultValue.cs",
+                              "size": 26
+                            },
+                            {
+                              "name": "FormResultAsset.cs",
+                              "size": 32
+                            },
+                            {
+                              "name": "GroupGroupsMapping.cs",
+                              "size": 31
+                            },
+                            {
+                              "name": "Lexicon.cs",
+                              "size": 49
+                            },
+                            {
+                              "name": "LexiconPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "LexiconLinkedContent.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "LookupValue.cs",
+                              "size": 32
+                            },
+                            {
+                              "name": "MapUserPlaceholder.cs",
+                              "size": 18
+                            },
+                            {
+                              "name": "NavigationEdit.cs",
+                              "size": 19
+                            },
+                            {
+                              "name": "NavigationEditPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "NavigationLive.cs",
+                              "size": 30
+                            },
+                            {
+                              "name": "NavigationLivePermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "OschatzErrorLog.cs",
+                              "size": 19
+                            },
+                            {
+                              "name": "OschatzRequestLog.cs",
+                              "size": 15
+                            },
+                            {
+                              "name": "Page.cs",
+                              "size": 44
+                            },
+                            {
+                              "name": "PageLinkedContent.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "PagePermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "PostLinkedContent.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "Post.cs",
+                              "size": 60
+                            },
+                            {
+                              "name": "PostNFM.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "PostPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "Product.cs",
+                              "size": 30
+                            },
+                            {
+                              "name": "PromotionLink.cs",
+                              "size": 28
+                            },
+                            {
+                              "name": "PromotionLinkPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "AppGroup.cs",
+                              "size": 18
+                            },
+                            {
+                              "name": "Script.cs",
+                              "size": 30
+                            },
+                            {
+                              "name": "PromotionPhoto.cs",
+                              "size": 37
+                            },
+                            {
+                              "name": "Setting.cs",
+                              "size": 19
+                            },
+                            {
+                              "name": "Task.cs",
+                              "size": 42
+                            },
+                            {
+                              "name": "StoreFloorplan.cs",
+                              "size": 21
+                            },
+                            {
+                              "name": "Supplier.cs",
+                              "size": 22
+                            },
+                            {
+                              "name": "TaskLinkedContent.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "TaskPermissionMapping.cs",
+                              "size": 12
+                            },
+                            {
+                              "name": "TaskResult.cs",
+                              "size": 26
+                            },
+                            {
+                              "name": "TaskResultStatus.cs",
+                              "size": 14
+                            },
+                            {
+                              "name": "TaskType.cs",
+                              "size": 14
+                            },
+                            {
+                              "name": "Template.cs",
+                              "size": 44
+                            },
+                            {
+                              "name": "Translate.cs",
+                              "size": 42
+                            },
+                            {
+                              "name": "UserGroupMapping.cs",
+                              "size": 27
+                            },
+                            {
+                              "name": "VitracomPicture.cs",
+                              "size": 19
+                            },
+                            {
+                              "name": "VMCampaignPermissionMapping.cs",
+                              "size": 17
+                            },
+                            {
+                              "name": "VMCampaign.cs",
+                              "size": 25
+                            },
+                            {
+                              "name": "VMEquipment.cs",
+                              "size": 34
+                            },
+                            {
+                              "name": "VMEquipmentImage.cs",
+                              "size": 31
+                            },
+                            {
+                              "name": "VMErrorLog.cs",
+                              "size": 28
+                            },
+                            {
+                              "name": "VMProduct.cs",
+                              "size": 27
+                            },
+                            {
+                              "name": "VMFurnitureAssessment.cs",
+                              "size": 19
+                            },
+                            {
+                              "name": "VMPromotion.cs",
+                              "size": 33
+                            },
+                            {
+                              "name": "VMProductImage.cs",
+                              "size": 27
+                            },
+                            {
+                              "name": "VMPromotionFurniture.cs",
+                              "size": 24
+                            },
+                            {
+                              "name": "VMPromotionImage.cs",
+                              "size": 27
+                            },
+                            {
+                              "name": "VMResult.cs",
+                              "size": 24
+                            },
+                            {
+                              "name": "VMPromotionPermissionMapping.cs",
+                              "size": 11
+                            },
+                            {
+                              "name": "VMResultImage.cs",
+                              "size": 21
+                            },
+                            {
+                              "name": "VMResultFavorite.cs",
+                              "size": 20
+                            },
+                            {
+                              "name": "VMType.cs",
+                              "size": 24
+                            },
+                            {
+                              "name": "VMResultQuestionMapping.cs",
+                              "size": 22
+                            },
+                            {
+                              "name": "VMTypeQuestion.cs",
+                              "size": 20
+                            },
+                            {
+                              "name": "VMUploadExperiment.cs",
+                              "size": 17
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Douglas.Inside",
+              "children": [
+                {
+                  "name": "File.cs",
+                  "size": 14
+                },
+                {
+                  "name": "Global.asax.cs",
+                  "size": 61
+                },
+                {
+                  "name": "Controllers",
+                  "children": [
+                    {
+                      "name": "AdminController.cs",
+                      "size": 16
+                    },
+                    {
+                      "name": "AlarmController.cs",
+                      "size": 16
+                    },
+                    {
+                      "name": "FormController.cs",
+                      "size": 38
+                    },
+                    {
+                      "name": "ArticleController.cs",
+                      "size": 88
+                    },
+                    {
+                      "name": "HomeController.cs",
+                      "size": 31
+                    },
+                    {
+                      "name": "ErrorController.cs",
+                      "size": 25
+                    },
+                    {
+                      "name": "ImportantMessageController.cs",
+                      "size": 38
+                    },
+                    {
+                      "name": "LexiconController.cs",
+                      "size": 31
+                    },
+                    {
+                      "name": "MailController.cs",
+                      "size": 24
+                    },
+                    {
+                      "name": "PageController.cs",
+                      "size": 17
+                    },
+                    {
+                      "name": "PromotionController.cs",
+                      "size": 12
+                    },
+                    {
+                      "name": "RegisterItemController.cs",
+                      "size": 31
+                    },
+                    {
+                      "name": "ReloginController.cs",
+                      "size": 25
+                    },
+                    {
+                      "name": "SearchController.cs",
+                      "size": 56
+                    },
+                    {
+                      "name": "StatusController.cs",
+                      "size": 15
+                    },
+                    {
+                      "name": "SidebarController.cs",
+                      "size": 35
+                    },
+                    {
+                      "name": "TodoController.cs",
+                      "size": 112
+                    },
+                    {
+                      "name": "TopbarController.cs",
+                      "size": 21
+                    },
+                    {
+                      "name": "TranslationController.cs",
+                      "size": 19
+                    },
+                    {
+                      "name": "UserController.cs",
+                      "size": 21
+                    },
+                    {
+                      "name": "VitracomController.cs",
+                      "size": 17
+                    }
+                  ]
+                },
+                {
+                  "name": "App_Start",
+                  "children": [
+                    {
+                      "name": "BundleConfig.cs",
+                      "size": 83
+                    },
+                    {
+                      "name": "RouteConfig.cs",
+                      "size": 316
+                    },
+                    {
+                      "name": "WebApiConfig.cs",
+                      "size": 17
+                    }
+                  ]
+                },
+                {
+                  "name": "Model",
+                  "children": [
+                    {
+                      "name": "SideBarPostModel.cs",
+                      "size": 12
+                    },
+                    {
+                      "name": "SideBarTaskModel.cs",
+                      "size": 10
+                    },
+                    {
+                      "name": "SideBarEntityModel.cs",
+                      "size": 16
+                    }
+                  ]
+                },
+                {
+                  "name": "Services",
+                  "children": [
+                    {
+                      "name": "ApplicationCache.cs",
+                      "size": 10
+                    },
+                    {
+                      "name": "FormResultService.cs",
+                      "size": 116
+                    },
+                    {
+                      "name": "FileService.cs",
+                      "size": 83
+                    }
+                  ]
+                },
+                {
+                  "name": "Helper",
+                  "children": [
+                    {
+                      "name": "HtmlExtensions.cs",
+                      "size": 27
+                    },
+                    {
+                      "name": "MultipartFormDataMemoryStreamProvider.cs",
+                      "size": 59
+                    },
+                    {
+                      "name": "UserInformationHelper.cs",
+                      "size": 23
+                    },
+                    {
+                      "name": "MVCHelper.cs",
+                      "size": 43
+                    }
+                  ]
+                },
+                {
+                  "name": "Properties",
+                  "children": [
+                    {
+                      "name": "AssemblyInfo.cs",
+                      "size": 14
+                    }
+                  ]
+                },
+                {
+                  "name": "API",
+                  "children": [
+                    {
+                      "name": "Controllers",
+                      "children": [
+                        {
+                          "name": "EmployeeController.cs",
+                          "size": 30
+                        },
+                        {
+                          "name": "IWWSController.cs",
+                          "size": 35
+                        },
+                        {
+                          "name": "MailController.cs",
+                          "size": 49
+                        },
+                        {
+                          "name": "NFMController.cs",
+                          "size": 37
+                        },
+                        {
+                          "name": "SearchController.cs",
+                          "size": 31
+                        },
+                        {
+                          "name": "FavoritController.cs",
+                          "size": 53
+                        },
+                        {
+                          "name": "TaskController.cs",
+                          "size": 61
+                        },
+                        {
+                          "name": "UserInformationController.cs",
+                          "size": 20
+                        },
+                        {
+                          "name": "FileController.cs",
+                          "size": 38
+                        },
+                        {
+                          "name": "FormController.cs",
+                          "size": 102
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Models",
+                      "children": [
+                        {
+                          "name": "Favorit.cs",
+                          "size": 9
+                        },
+                        {
+                          "name": "NFM.cs",
+                          "size": 7
+                        },
+                        {
+                          "name": "TaskAssignForm.cs",
+                          "size": 9
+                        },
+                        {
+                          "name": "TaskCompletionForm.cs",
+                          "size": 9
+                        },
+                        {
+                          "name": "TaskMailModel.cs",
+                          "size": 10
+                        },
+                        {
+                          "name": "TaskOptions.cs",
+                          "size": 11
+                        },
+                        {
+                          "name": "FormMailModel.cs",
+                          "size": 12
+                        },
+                        {
+                          "name": "MailModel.cs",
+                          "size": 13
+                        },
+                        {
+                          "name": "MorphingSearch.cs",
+                          "size": 8
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Views",
+                  "children": [
+                    {
+                      "name": "_ViewStart.cshtml",
+                      "size": 4
+                    },
+                    {
+                      "name": "Admin",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 43
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Article",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 85
+                        },
+                        {
+                          "name": "_Home.cshtml",
+                          "size": 70
+                        },
+                        {
+                          "name": "ListInner.cshtml",
+                          "size": 19
+                        },
+                        {
+                          "name": "_Items.cshtml",
+                          "size": 12
+                        },
+                        {
+                          "name": "_ListHeader.cshtml",
+                          "size": 40
+                        },
+                        {
+                          "name": "List.cshtml",
+                          "size": 32
+                        },
+                        {
+                          "name": "_ReadStatusList.cshtml",
+                          "size": 13
+                        },
+                        {
+                          "name": "_PermissionList.cshtml",
+                          "size": 12
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Error",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 28
+                        },
+                        {
+                          "name": "NoAccess.cshtml",
+                          "size": 6
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Form",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 28
+                        },
+                        {
+                          "name": "List.cshtml",
+                          "size": 29
+                        },
+                        {
+                          "name": "Success.cshtml",
+                          "size": 58
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ImportantMessage",
+                      "children": [
+                        {
+                          "name": "_Home.cshtml",
+                          "size": 46
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Home",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 37
+                        },
+                        {
+                          "name": "Redesign.cshtml",
+                          "size": 30
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Mail",
+                      "children": [
+                        {
+                          "name": "Ansprechpartner.cshtml",
+                          "size": 38
+                        },
+                        {
+                          "name": "TaskFeedback.cshtml",
+                          "size": 49
+                        },
+                        {
+                          "name": "Form.cshtml",
+                          "size": 63
+                        },
+                        {
+                          "name": "_LayoutMail.cshtml",
+                          "size": 132
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Page",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 66
+                        },
+                        {
+                          "name": "_Appsmartiebar.cshtml",
+                          "size": 10
+                        },
+                        {
+                          "name": "_Header.cshtml",
+                          "size": 11
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Promotion",
+                      "children": [
+                        {
+                          "name": "_Home.cshtml",
+                          "size": 25
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Search",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 12
+                        },
+                        {
+                          "name": "Morphing.cshtml",
+                          "size": 9
+                        },
+                        {
+                          "name": "_MorphingAssets.cshtml",
+                          "size": 24
+                        },
+                        {
+                          "name": "_Contact.cshtml",
+                          "size": 34
+                        },
+                        {
+                          "name": "_MorphingContacts.cshtml",
+                          "size": 28
+                        },
+                        {
+                          "name": "_MorphingFooter.cshtml",
+                          "size": 8
+                        },
+                        {
+                          "name": "_MorphingSearch.cshtml",
+                          "size": 22
+                        },
+                        {
+                          "name": "_Result.cshtml",
+                          "size": 58
+                        },
+                        {
+                          "name": "_MorphingContent.cshtml",
+                          "size": 25
+                        },
+                        {
+                          "name": "_Filter.cshtml",
+                          "size": 132
+                        }
+                      ]
+                    },
+                    {
+                      "name": "RegisterItem",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 60
+                        },
+                        {
+                          "name": "List.cshtml",
+                          "size": 28
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Shared",
+                      "children": [
+                        {
+                          "name": "_Footer.cshtml",
+                          "size": 112
+                        },
+                        {
+                          "name": "_Layout.cshtml",
+                          "size": 90
+                        },
+                        {
+                          "name": "_LayoutMobile.cshtml",
+                          "size": 65
+                        },
+                        {
+                          "name": "_LayoutPrint.cshtml",
+                          "size": 20
+                        },
+                        {
+                          "name": "_LayoutRedesign.cshtml",
+                          "size": 76
+                        },
+                        {
+                          "name": "_Modal.cshtml",
+                          "size": 21
+                        },
+                        {
+                          "name": "_Piwik.cshtml",
+                          "size": 35
+                        },
+                        {
+                          "name": "_Video.cshtml",
+                          "size": 20
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Sidebar",
+                      "children": [
+                        {
+                          "name": "_Contacts.cshtml",
+                          "size": 46
+                        },
+                        {
+                          "name": "_LinkedContent.cshtml",
+                          "size": 24
+                        },
+                        {
+                          "name": "_Menu.cshtml",
+                          "size": 22
+                        },
+                        {
+                          "name": "_Attachments.cshtml",
+                          "size": 24
+                        },
+                        {
+                          "name": "_MenuApps.cshtml",
+                          "size": 52
+                        },
+                        {
+                          "name": "_MenuNavigation.cshtml",
+                          "size": 25
+                        },
+                        {
+                          "name": "_MenuFavorites.cshtml",
+                          "size": 33
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Status",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 8
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Todo",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 97
+                        },
+                        {
+                          "name": "List.cshtml",
+                          "size": 81
+                        },
+                        {
+                          "name": "ListInner.cshtml",
+                          "size": 57
+                        },
+                        {
+                          "name": "HomeInner.cshtml",
+                          "size": 56
+                        },
+                        {
+                          "name": "Home.cshtml",
+                          "size": 40
+                        },
+                        {
+                          "name": "_DoneStatusList.cshtml",
+                          "size": 13
+                        },
+                        {
+                          "name": "_TaskMenu.cshtml",
+                          "size": 25
+                        }
+                      ]
+                    },
+                    {
+                      "name": "User",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 41
+                        },
+                        {
+                          "name": "_RelatedContent.cshtml",
+                          "size": 30
+                        },
+                        {
+                          "name": "_Profile.cshtml",
+                          "size": 69
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Topbar",
+                      "children": [
+                        {
+                          "name": "_Full.cshtml",
+                          "size": 35
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Alarm",
+                      "children": [
+                        {
+                          "name": "_Home.cshtml",
+                          "size": 21
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Vitracom",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 45
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Lexicon",
+                      "children": [
+                        {
+                          "name": "Index.cshtml",
+                          "size": 79
+                        },
+                        {
+                          "name": "List.cshtml",
+                          "size": 29
+                        },
+                        {
+                          "name": "_ContentTable.cshtml",
+                          "size": 40
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "obj",
+                  "children": [
+                    {
+                      "name": "Debug",
+                      "children": [
+                        {
+                          "name": "TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs",
+                          "size": 1
+                        },
+                        {
+                          "name": "TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs",
+                          "size": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

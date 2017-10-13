@@ -32,8 +32,9 @@ rect {
     var recursive = require('recursive-readdir');
     var sloc  = require('sloc');
 
-    var dir1 = 'C:\\Source\\copy\\inside\\Douglas.Inside\\';
-	var dir2 = 'C:\\Source\\copy\\inside\\Douglas.Inside.MasterPages\\';
+	var dir_new1 = 'C:\\Source\\inside\\Douglas.Inside\\';
+    var dir_old1 = 'C:\\Source\\copy\\inside\\Douglas.Inside\\';
+	var dir_old2 = 'C:\\Source\\copy\\inside\\Douglas.Inside.MasterPages\\';
 
     function ignore(file, stats) {
       return stats.isDirectory() && (
@@ -70,6 +71,9 @@ rect {
 			var code = fs.readFileSync(file, 'utf8');
 			try {
 			  var ext = getExtension(file);
+			  if (file.indexOf('\\Migrations\\') !== -1) {
+				continue;
+			  }
 			  if (ext === 'cshtml') ext = 'html';
 			  if (ext !== 'cs' && ext !== 'html') continue;
 			  var stats = sloc(code, ext);
@@ -92,15 +96,27 @@ rect {
 		});
 	}
 	
-	/*read(dir1, function () {
-		read(dir2, function () {
+	read(dir_old1, function () {
+		read(dir_old2, function () {
 		  recurseAddChildren(data);
 		  var content = JSON.stringify(data.children[0], null, 2);
-		  fs.writeFileSync("./test.json", content, 'utf8');
+		  fs.writeFileSync("./old-inside.json", content, 'utf8');
 		  
 		  console.log(total);
+		  
+		  data = {};
+		  total = 0;
+		  read(dir_new1, function () {
+			  recurseAddChildren(data);
+			  var content = JSON.stringify(data.children[0], null, 2);
+			  fs.writeFileSync("./new-inside.json", content, 'utf8');
+			  
+			  console.log(total);
+		  });
 		});
-	});*/
+	});
+	
+	
 	
 	require('./renderer.js');
 

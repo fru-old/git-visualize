@@ -1,6 +1,6 @@
 var w = 1280 - 80,
-    h = 800 - 180,
-	//h = (800 - 180) * 1.35,
+    h = (800 - 180)  / 24958 * 15890,
+	//h = 800 - 180,
     x = d3.scale.linear().range([0, w]),
     y = d3.scale.linear().range([0, h]),
     color = d3.scale.category20c(),
